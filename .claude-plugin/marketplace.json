@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ralph-tm",
+  "description": "Ralph Loop with Task Master integration for Claude Code",
+  "owner": {
+    "name": "Ben Coombs"
+  },
+  "plugins": [
+    {
+      "name": "ralph-tm",
+      "description": "Self-referential AI loops with Task Master integration. Each iteration gets fresh task state injected automatically.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Ben Coombs"
+      },
+      "source": "./plugins/ralph-tm",
+      "category": "development"
+    }
+  ]
+}
